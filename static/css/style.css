@@ -168,7 +168,13 @@ article {
     margin: 10px auto;
     color: #B4CAD0; }
     button p {
-      font-size: .9rem; } }
+      font-size: .9rem; }
+
+  button:hover {
+    background: secondary;
+    color: #B4CAD0; }
+    button:hover a, button:hover p {
+      color: #B4CAD0; } }
 @media (max-width: 625px) {
   .nav-desktop {
     display: none; }
