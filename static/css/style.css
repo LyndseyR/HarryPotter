@@ -93,7 +93,7 @@ button {
   cursor: pointer;
   outline: none; }
   button a {
-    padding: 10px 25px; }
+    padding: 10px 50px; }
 
 button:hover {
   background: #B4CAD0;
@@ -140,10 +140,6 @@ article {
   display: block;
   margin: 10px auto;
   color: #B4CAD0; }
-.style-question button:hover {
-  background: #B4CAD0; }
-  .style-question button:hover p {
-    color: #531E1C; }
 
 @media (max-width: 768px) {
   article {
