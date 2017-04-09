@@ -165,6 +165,8 @@ article {
     color: #B4CAD0; }
     button p {
       font-size: .9rem; }
+    button a {
+      padding: 10px 20px; }
 
   button:hover {
     background: #531E1C; }
