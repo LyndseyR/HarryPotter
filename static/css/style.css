@@ -171,8 +171,7 @@ article {
       font-size: .9rem; }
 
   button:hover {
-    background: secondary;
-    color: #B4CAD0; }
+    background: #531E1C; }
     button:hover a, button:hover p {
       color: #B4CAD0; } }
 @media (max-width: 625px) {
