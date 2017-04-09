@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harry Potter TEST</title>
-    <link rel="stylesheet" href="../static/css/normalize.css">
+    <title>Harry Potter Test</title>
+    <link rel="stylesheet" href="static/css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet">
-    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="static/css/style.css">
 
     <!--Favicon  -->
-    <!-- <link rel="apple-touch-icon" sizes="57x57" href="../static/images/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="../static/images/favicon/apple-icon-60x60.png">
+    <!-- <link rel="apple-touch-icon" sizes="57x57" href="../static/images/favicon/apple-icon-57x57.png"> -->
+    <!-- <link rel="apple-touch-icon" sizes="60x60" href="../static/images/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="../static/images/favicon/apple-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="76x76" href="../static/images/favicon/apple-icon-76x76.png">
     <link rel="apple-touch-icon" sizes="114x114" href="../static/images/favicon/apple-icon-114x114.png">
@@ -38,7 +38,7 @@
           <li><a href="#">Ghost Chasing</a></li>
           <li><a href="#">Mind Reading Class</a></li>
           <li><a href="#">Muggle Trivia</a></li>
-          <li><a href="#">How to Talk to a Squib</a></li>
+          <li><a href="#">Potion Crash Course</a></li>
           <li><a href="#">Send An Enemy to Azakaban</a></li>
           <li><a href="#">Tour a Muggle Home</a></li>
         </ul>
@@ -50,29 +50,26 @@
           <li><a href="#">Ghost Chasing</a></li>
           <li><a href="#">Mind Reading Class</a></li>
           <li><a href="#">Muggle Trivia</a></li>
-          <li><a href="#">Potion Crash Course</a></li>
+          <li><a href="#">How to Talk to a Squib</a></li>
           <li><a href="#">Send An Enemy to Azakaban</a></li>
           <li><a href="#">Tour a Muggle Home</a></li>
         </ul>
       </div>
     </header>
 
-    <article class="style-question">
+    <article>
       <div class="container">
-        <div class="timer">10 seconds</div>
         <div class="quiz-container">
-          <h3 id="question"></h3>
-          <button class="test"><p id="answer1"> </p></button>
-          <button class="test"><p id="answer2"> </p></button>
-          <button class="test"><p id="answer3"> </p></button>
-          <button class="test"><p id="answer4"> </p></button>
+          <h2>You're Still A Muggle</h2>
+          <!-- <h3>Once you start you can't turn back!</h3> -->
+          <h4 id="gotWrong"></h4>
+          <button><a href="questions.html">Try Again</a></button>
         </div>
       </div>
     </article>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="../static/js/script.js"></script>
-    <script src="../static/js/question.js"></script>
+    <script src="static/js/script.js"></script>
   </body>
 </html>
