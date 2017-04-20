@@ -14,7 +14,9 @@ $(document).ready(function(){
         $('.timer').html('hurry ' + timer + ' seconds');
       }
       else {
-        window.location = "end.html";
+        // Don't redirect, show hidden container. Or pass variable through the url to store the right var
+        $('.question-container').hide();
+        $('.end-container').show();
       }
     }, 1000);
   }
