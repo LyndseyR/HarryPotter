@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harry Potter TEST</title>
+    <title>Harry Potter Trivia</title>
     <link rel="stylesheet" href="static/css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet">
     <link rel="stylesheet" href="static/css/style.css">
@@ -31,7 +31,7 @@
   <body>
 
     <header>
-      <h1>Harry Potter</h1>
+      <a href="index.html"><h1>Harry Potter</h1></a>
       <div class="nav-desktop">
         <ul>
           <li><a href="http://www.atlasandboots.com/earths-most-remote-places/" target="_blank">Evade the Ministry</a></li>
@@ -57,15 +57,26 @@
       </div>
     </header>
 
-    <article class="style-question">
+    <article class="question-container">
       <div class="container">
+        <span id="numWrong"></span>
         <div class="timer">10 seconds</div>
         <div class="quiz-container">
           <h3 id="question"></h3>
-          <button class="test"><p id="answer1"> </p></button>
-          <button class="test"><p id="answer2"> </p></button>
-          <button class="test"><p id="answer3"> </p></button>
-          <button class="test"><p id="answer4"> </p></button>
+          <button class="test one"><p id="answer1"> </p></button>
+          <button class="test two"><p id="answer2"> </p></button>
+          <button class="test three"><p id="answer3"> </p></button>
+          <button class="test four"><p id="answer4"> </p></button>
+        </div>
+      </div>
+    </article>
+
+    <article class="end-container">
+      <div class="container">
+        <div class="quiz-container">
+          <h4 id="rightAnsw"></h4>
+          <h2>You're Still A Muggle</h2>
+          <button><a href="questions.html">Try Again</a></button>
         </div>
       </div>
     </article>
