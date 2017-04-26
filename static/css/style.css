@@ -147,7 +147,17 @@ article {
   width: 75%;
   display: block;
   margin: 10px auto;
-  color: #B4CAD0; }
+  color: #B4CAD0;
+  background: #531E1C;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none; }
+.question-container button:hover {
+  background: #B4CAD0; }
+  .question-container button:hover p {
+    color: #531E1C; }
 
 @media (max-width: 768px) {
   article {
