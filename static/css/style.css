@@ -88,20 +88,20 @@ a {
   color: #B4CAD0;
   text-decoration: none; }
 
-button {
+.button {
   background: #531E1C;
   padding: 15px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   outline: none; }
-  button a {
+  .button a {
     padding: 10px 50px; }
 
-button:hover {
+.button:hover {
   background: #B4CAD0;
   color: #531E1C; }
-  button:hover a, button:hover p {
+  .button:hover a, .button:hover p {
     color: #531E1C; }
 
 header {
@@ -118,7 +118,8 @@ article {
     opacity: .9;
     padding: 10px;
     border-radius: 8px;
-    margin-bottom: 10%; }
+    margin-bottom: 10%;
+    text-align: center; }
     article .container .timer {
       font-size: 1.75rem;
       width: auto;
@@ -134,7 +135,7 @@ article {
       padding: 20px 10px; }
       article .container .quiz-container h2, article .container .quiz-container h3 {
         margin-bottom: 20px; }
-      article .container .quiz-container button {
+      article .container .quiz-container .button {
         width: 75%;
         margin-left: 12.5%;
         font-size: 1.1rem; }
